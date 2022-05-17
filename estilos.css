@@ -1,0 +1,360 @@
+/*para el h1*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&family=Poppins:wght@100;200;600&display=swap');
+/*parrafo*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&family=Poppins:wght@100;200;600&display=swap');
+
+
+/*reseteo*/
+* {
+
+    box-sizing: border-box;
+    outline: none;
+}
+/*fin del reseteo*/
+/*diseñando desde cero*/
+body {
+    padding: 0 .75rem;
+    margin: 0 auto;
+    width: 90%;
+    background-color:lightskyblue;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.img-fluid {
+
+    max-width: 100%;
+    height: auto;
+}
+/**/
+/*diseño UNIX*/
+.contenedor {
+    padding: 8px;
+    margin: 0 auto;
+}
+
+.cabezal {
+
+    text-align: center;
+
+}
+
+header {
+    height: 300px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.logo {
+    display: inline-block;
+    text-align: center;
+}
+/*botonera*/
+ nav {
+    float: right;
+    margin: right 60px; 
+}
+
+ nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+ nav ul li a {
+    background-color: aqua;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    border-radius: 5%;
+}
+
+nav ul li a:hover {
+    background-color: blue;
+    color:white;
+  
+}
+/*fin botonera*/
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    padding-top: 70px;
+    text-align: center;
+    padding-left: 20px;
+    margin: 0;
+    color: white;
+}
+
+.contenedortexto {
+    margin: 0;
+    padding: 1rem 1rem 3rem 1rem;
+    margin: 0%;
+}
+
+.contenedortexto h1 {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 2rem;
+    color:white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 90px;
+}
+
+.contenedortexto p {
+    text-align: center;
+    color: blue;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.lanatacion{
+    padding-bottom: 1rem;
+}
+
+.mariposa {
+    text-align: center;
+    padding-bottom: 32px;
+    border-radius: 10;
+}
+
+.pecho {
+    text-align: center;
+    padding-bottom: 32px;
+    border-radius: 10;
+}
+
+.espalda {
+    text-align: center;
+    padding-bottom: 32px;
+    border-radius: 10;
+}
+
+.fotonatacion img{
+border-radius: 10%;
+}
+
+.mariposa img {
+    border-radius: 10%;
+}
+
+.pecho img {
+    border-radius: 10%;
+}
+
+.espalda img {
+    border-radius: 10%;
+}
+.boton {
+    font-size: 1rem;
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+    background-color: blueviolet;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 12%;
+    height: 15%;
+}
+
+.boton:hover {
+    background-color: rgb(0, 0, 0);
+    color: #fff8ce;
+}
+
+.contenidolosbeneficios ul li {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.videobeneficios {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 48px;
+    padding-top: 100px;
+}
+
+
+.deportistasdestados {
+    margin: 0;
+    padding: 0 auto;
+    width: 100px;
+    padding-bottom: 3rem;
+}
+
+
+.deportistasdestados h1 {
+    font-size: 50px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: white;
+}
+figure img {
+    text-align: center;
+}
+
+.delfi h2 {
+    font-size: 30px;
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 110px;
+}
+
+.jose h3 {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.phelps h4 {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.fotos {
+    margin: 0;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.fotos figure { 
+margin: 0;
+padding: 0%;
+}
+
+.video {
+    text-align: center;
+    margin: auto;
+    background-color:blue;
+    padding-bottom: 48px;
+}
+
+.video h1 {
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.youtube  {
+   position: relative;
+   padding-bottom: 56.25%;
+   height: 0;
+}
+
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding-bottom: 2rem;
+}
+
+
+footer { 
+    height: 300px;
+    background-color: rgba(0, 163, 217, 0.7);
+    padding: 10px;
+    margin: 0 auto;
+}
+
+footer p {
+text-align: center;
+    font-size: 30px;
+    background-color: aqua;
+    font-family: 'Poppins', sans-serif;
+}
+
+.iconos {
+display: flex;
+justify-content: space-evenly;
+}
+
+.iconos figure {
+padding: 0.625rem;
+width: 400px;
+height: 400px;
+text-align: center;
+}
+
+@media (min-width: 768px) {
+
+    nav {
+        display: block;
+    }
+
+    .texto {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 1rem;
+        }
+        
+        .lanatacion {
+            text-align: center;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            padding-bottom: 1rem;
+        }
+
+
+}
+
+@media (min-width: 992px) {
+
+    nav ul li a {
+        font-size: 1.7rem;
+    }
+
+    .lanatacion {
+        margin: 0;
+    }
+
+    .texto {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-bottom: 1rem;
+    
+        }
+        
+    .texto, .fotonatacion {
+        width: 45%;
+        }
+
+    .contenidodelosbeneficios {
+            text-align: center;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-evenly;
+        }
+}
